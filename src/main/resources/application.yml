@@ -1,0 +1,14 @@
+server:
+  port: 8761
+
+spring:
+  cloud:
+    gateway:
+      enabled: true
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+
+
